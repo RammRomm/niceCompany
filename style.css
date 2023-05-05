@@ -36,6 +36,9 @@ color: lightslategray;
 
 .card:hover
 {
-  color: #6A64D5;
+  box-shadow: 0 0 3px #6A64D5;
 transition: all 1s ease-in-out;
 }
+
+
+
