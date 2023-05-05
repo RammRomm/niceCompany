@@ -1,0 +1,41 @@
+.main-color
+{
+  color: #6A64D5;
+}
+
+.button
+{
+  color: #fff;
+  background: #6A64D5;
+  transition: all 2s;
+}
+
+.button:hover
+{  
+  color: #6A64D5;
+  background:#fff ;
+}
+
+ul li a i
+{
+color: #6A64D5;
+font-size: 25px;
+transition: all 2s;
+}
+
+ul li:hover a i
+{
+color: lightslategray;
+}
+
+.darky
+{
+  background:#6A64D5;
+}
+
+
+.card:hover
+{
+  color: #6A64D5;
+transition: all 1s ease-in-out;
+}
