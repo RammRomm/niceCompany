@@ -15,6 +15,12 @@
   color: #6A64D5;
   background:#fff ;
 }
+.navbar-item:hover
+{
+  color: #6A64D5;
+  transition: all 1s;
+}
+
 
 ul li a i
 {
