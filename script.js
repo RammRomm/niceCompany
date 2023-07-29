@@ -1,6 +1,5 @@
 gsap.registerPlugin(ScrollTrigger);
 
-
 gsap.to(".FB1", {
   scrollTrigger: {
     trigger: ".FB1",
@@ -22,6 +21,3 @@ gsap.to(".IB1", {
   rotation: 360,
   duration: 2,
 });
-
-
-
