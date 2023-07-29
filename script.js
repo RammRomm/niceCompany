@@ -2,16 +2,26 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 gsap.to(".FB1", {
-  scrollTrigger: ".FB1",
-  // x: 10,
+  scrollTrigger: {
+    trigger: ".FB1",
+    // scrub: true,
+    toggleActions: "restart pause reverse pause",
+  },
+  x: 500,
   rotation: 360,
   duration: 2,
 });
 
-gsap.from(".IB1", { 
-  scrollTrigger: ".IB1",
-  duration: 2, 
-  rotation: 180,
-  
-                   // x: "-100vw"
-                  });
+gsap.to(".IB1", {
+  scrollTrigger: {
+    trigger: ".IB1",
+    // scrub: true,
+    toggleActions: "restart pause reverse pause",
+  },
+  x: 500,
+  rotation: 360,
+  duration: 2,
+});
+
+
+
